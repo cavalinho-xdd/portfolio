@@ -4,6 +4,7 @@ import Logos from "@/components/Logos";
 import Gallery from "@/components/Gallery";
 import Services from "@/components/Services";
 import About from "@/components/About";
+import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import useScrollReveal from "@/hooks/useScrollReveal";
 
@@ -18,6 +19,7 @@ const Index = () => {
       <Gallery />
       <Services />
       <About />
+      <Testimonials />
       <Footer />
     </div>
   );
