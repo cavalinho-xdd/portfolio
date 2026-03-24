@@ -22,7 +22,7 @@ const Logos = () => {
             Důvěřují mi
           </p>
           <h2 className="text-white text-3xl font-bold tracking-tight">
-            Spolupráce a klienti
+            Moje práce pro značky
           </h2>
         </div>
         

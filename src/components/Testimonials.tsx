@@ -9,12 +9,12 @@ const testimonials = [
   {
     name: "Michal Š.",
     role: "Social media manager a majitel umělecké firmy",
-    quote: "Tome, chtěl bych ti poděkovat, že jsi se stal součástí tohoto týmu. Pečlivě jsme vybírali z celkem 26 kandidátů a jsem plně přesvědčený, že jsme vybrali toho nejlepšího editora. Nejenom, že tvoje výsledky jsou na mnohem vyšší úrovni než u ostatních, ale jdeš do práce s přesahem. Líbí se mi, že děláš věci, které víš, že potřebujeme, ale nemusíš. Opravuješ chyby po ostatních editorech a neustále přicházíš s novými nápady.",
+    quote: "Tome, chtěl bych ti poděkovat, že jsi se stal součástí tohoto týmu. Pečlivě jsme vybírali z celkem 26 kandidátů a jsem plně přesvědčený, že jsme vybrali toho nejlepšího. Nejenom, že tvoje výsledky jsou na mnohem vyšší úrovni než u ostatních, ale jdeš do práce s přesahem. Líbí se mi, že děláš věci, které víš, že potřebujeme, ale dělat je nemusíš. Opravuješ chyby po ostatních editorech a neustále přicházíš s novými nápady.",
   },
   {
     name: "Daniel P. (Matthew)",
     role: "Manažer marketingové agentury, 9xstudios",
-    quote: "Tomáš je právě jeden z našich editorů. Co se týče Tomáše, tak můžu říct nejenom za sebe, ale za celou firmu, že jsme opravdu spokojení s jeho videi a s jeho výkonem. Tomáš vždycky pochopí to, co my chceme, dokáže to sestříhat velmi rychle a vždycky na deadline. Tomáš je velmi spolehlivý, ale také otevřený zpětné vazbě. Pokud hledáte editora, určitě neváhejte.",
+    quote: "Co se týče Tomáše, tak můžu říct nejenom za sebe, ale za celou firmu, že jsme opravdu spokojení s jeho videi a s jeho výkonem. Tomáš vždycky pochopí to, co my chceme, dokáže to sestříhat velmi rychle a vždycky na deadline. Tomáš je velmi spolehlivý, ale také otevřený zpětné vazbě. Pokud hledáte nového editora do svého týmu, určitě neváhejte.",
   },
 ];
 
@@ -24,7 +24,7 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="text-center mb-16 fade-up">
           <p className="text-zinc-500 text-sm font-light tracking-[0.3em] uppercase mb-4">
-            Co o mně říkají
+            Proč to se mnou dává smysl
           </p>
           <h2 className="text-white text-3xl md:text-5xl font-bold tracking-tight">
             Reference klientů

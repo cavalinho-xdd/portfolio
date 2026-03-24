@@ -29,7 +29,7 @@ const About = () => {
             </h2>
             <div className="text-zinc-300 text-lg font-light leading-relaxed mb-8 max-w-xl space-y-4">
               <p>
-                Za několik let v odvětví mám za sebou tisíce hodin v postprodukci a stovky úspěšných projektů – od RE/MAXu a Vinařství Thaya až po zahraniční trhy v Dubaji. Právě tato rozmanitost mě naučila bleskové flexibilitě. Dokážu se okamžitě adaptovat na váš brand, tempo i náročná zadání.
+                Za několik let v odvětví mám za sebou tisíce hodin v postprodukci a stovky úspěšných projektů – od makléřů z RE/MAXu a marketingových agentur až po zahraniční trhy v Dubaji. Právě tato rozmanitost mě naučila bleskové flexibilitě. Dokážu se okamžitě adaptovat na váš brand, tempo i náročná zadání.
               </p>
               <p>
                 Vím ale, že zkušenosti nejsou vše. Zastávám názor, že silné „PROČ“ a tah na branku doručí z dlouhodobého hlediska daleko víc než jen roky v oboru. Tvořím videa s energií, která nenechá váš projekt stát na místě.
