@@ -7,6 +7,7 @@ const Hero = () => {
       {/* Background videos container */}
       <div className="absolute inset-0 flex flex-row">
         {/* První video (na mobilu zobrazeno na 100% šířky, na PC jen na 50%) */}
+        {/* Zde je to, které klient uvidí na mobilu */}
         <div className="w-full md:w-1/2 h-full relative">
           <video
             autoPlay
@@ -15,7 +16,7 @@ const Hero = () => {
             playsInline
             className="w-full h-full object-cover opacity-50 mix-blend-luminosity"
           >
-            <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4" />
+            <source src="/videos/%E2%9C%934.Reel z akce.mov" type="video/quicktime" />
           </video>
         </div>
 
@@ -28,7 +29,7 @@ const Hero = () => {
             playsInline
             className="w-full h-full object-cover opacity-50 mix-blend-luminosity"
           >
-            <source src="https://media.w3.org/2010/05/video/movie_300.mp4" type="video/mp4" />
+            <source src="/videos/%E2%9C%932.zacatek nataceni.mov" type="video/quicktime" />
           </video>
         </div>
         
