@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "Filip V.",
     role: "Social media manager",
-    quote: "Tome, jsem s tebou moc spokojený, spolupracoval jsem už celkem tak s 20-30 editory a jednoznačně bych tě zařadil mezi špičku. Obdivuju, že zvládáš tolik pokynů, co ti vždy Michal naloží. Videa máš vždy sestříhaná rychle a nikdy nečekáme dlouho, čehož si cením. Rozhodně bych tě komukoliv doporučil.",
+    quote: "Tome, jsem s tebou moc spokojený, spolupracoval jsem už celkem tak s 20-30 editory a jednoznačně bych tě zařadil mezi špičku. Obdivuju, že zvládáš tolik pokynů, co ti vždy naložíme. Videa máš vždy sestříhaná rychle a nikdy nečekáme dlouho, čehož si cením. Rozhodně bych tě komukoliv doporučil.",
   },
   {
     name: "Michal Š.",
