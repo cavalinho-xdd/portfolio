@@ -19,7 +19,7 @@ const Logos = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="text-center mb-12 fade-up">
           <p className="text-zinc-500 text-sm font-light tracking-[0.3em] uppercase mb-4">
-            Důvěřují mi
+            Spolupráce a klienti
           </p>
           <h2 className="text-white text-3xl font-bold tracking-tight">
             Moje práce pro značky
