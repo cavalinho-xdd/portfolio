@@ -4,13 +4,13 @@ const logos = [
   { src: "/logos/inago.jpg", alt: "Inago Digital" },
   { src: "/logos/jandasport.png", alt: "JANDA SPORT" },
   { src: "/logos/ocenena_vina.gif", alt: "Oceněná Vína" },
-  { src: "/logos/poseidon_tub.png", alt: "Poseidon Tub" },
   { src: "/logos/prijimacky_jinak.png", alt: "Přijímačky Jinak" },
   { src: "/logos/remax.png", alt: "RE/MAX" },
-  { src: "/logos/sapa_trip.png", alt: "Sapa Trip" },
   { src: "/logos/shortpro.png", alt: "ShortPRO" },
-  { src: "/logos/svaz_zapasu.jpg", alt: "Svaz zápasu ČR" },
-  { src: "/logos/thaya.png", alt: "THAYA" },
+  { src: "/logos/Barvírna.png", alt: "Barvírna" },
+  { src: "/logos/Grape SC.png", alt: "Grape SC" },
+  { src: "/logos/Starfit.png", alt: "Starfit" },
+  { src: "/logos/Zezem.jpg", alt: "Zezem" },
 ];
 
 const Logos = () => {
@@ -28,15 +28,16 @@ const Logos = () => {
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8 md:gap-12 items-center justify-items-center opacity-70 hover:opacity-100 transition-opacity duration-500">
           {logos.map((logo, index) => {
-            // Tyto loga jsou nahrána jako PNG beze správného ořezu/průhlednosti (mají plné pozadí) 
-            // a nebo to jsou špatně formátované GIFy. Místo brightness úpravy na ně jen 
+            // Tyto loga jsou nahrána jako PNG beze správného ořezu/průhlednosti (mají plné pozadí)
+            // nebo chcipnute jako JPG. Místo brightness úpravy na ně jen 
             // použijeme grayscale a lehký kontrast, a případně mix-blend mód pro minimalizaci okrajů.
             const isOcenenaVina = logo.src.includes('ocenena_vina');
-            const isPoseidon = logo.src.includes('poseidon_tub');
-            const isSapaTrip = logo.src.includes('sapa_trip');
             const isRemax = logo.src.includes('remax');
+            const isGrape = logo.src.includes('Grape');
+            const isBarvirna = logo.src.includes('Barvírna');
+            const isStarfit = logo.src.includes('Starfit');
             const isJpg = logo.src.toLowerCase().endsWith('.jpg') || logo.src.toLowerCase().endsWith('.jpeg');
-            const hasSolidBackground = isOcenenaVina || isPoseidon || isSapaTrip || isRemax || isJpg;
+            const hasSolidBackground = isOcenenaVina || isRemax || isJpg || isGrape || isBarvirna || isStarfit;
 
             return (
               <div key={index} className="w-full flex justify-center fade-up group" style={{ transitionDelay: `${index * 50}ms` }}>
